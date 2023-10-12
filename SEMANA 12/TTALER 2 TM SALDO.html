@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASEJE TM </title>
+    <!-- link de sitio sweetalert mensajes mas elegantes-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>"
+</head>
+<body>
+    <center>
+        <img src="./85c65ad6-f6ed-4b97-9d94-0b52a03c7958.jpg" alt="" width="150"
+        height="150">
+        <h2>INGRESO / SALDO TRAJETA TRANSMILENIO</h2>
+        <br>
+        <script>
+            var saldo;
+            const tm=2950;//valor  paseje TM // ENTRADA DE SALDO 
+            saldo=parseInt(prompt("Ingrese saldo de su trajeta TM"));
+            //PROCESO
+            if(saldo>=tm){
+                swal("Estimado usuario","ingrese al sistema de trasmilenio","success");
+            }else{
+                swal("Estimado usuario","SALDO INSUFICIENTE","error");
+            }
+        </script>
+    </center>
+</body>
+</html>
